@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Lista de Filmes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O componente `Lista_Filmes` é uma aplicação React simples para gerenciar uma lista de filmes, onde é possível adicionar, editar e remover filmes, bem como atribuir uma nota a cada um deles. 
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+Este componente permite ao usuário:
+- Adicionar novos filmes com uma nota.
+- Editar filmes existentes.
+- Remover filmes da lista.
 
-### `npm start`
+Os filmes e suas notas são armazenados no estado do componente e exibidos em uma lista.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Estrutura do Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Componente `Lista_Filmes`**: O componente principal que gerencia a lista de filmes e fornece a interface do usuário para adicionar, editar e remover filmes.
+- **Estilos**: O componente utiliza um arquivo CSS externo para estilizar o layout.
 
-### `npm test`
+## Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Adicionar Filme**
+   - O usuário pode inserir o nome e a nota do filme nos campos de entrada e clicar em "Adicionar Filme" para adicionar o filme à lista.
+   
+2. **Editar Filme**
+   - Ao clicar em "Editar" ao lado de um filme na lista, os campos de entrada são preenchidos com os dados do filme selecionado e o botão muda para "Atualizar Filme". Isso permite a atualização dos detalhes do filme.
 
-### `npm run build`
+3. **Remover Filme**
+   - O botão "Remover" ao lado de cada filme permite que o usuário exclua o filme da lista.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Instalações
+   - `npx create-react-app {nome do repositório}`: Criar o repositório utilizando a biblioteca React
+   - `npm install --global surge`: Instala o surge para públicação do site
